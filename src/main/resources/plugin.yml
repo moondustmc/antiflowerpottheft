@@ -1,0 +1,5 @@
+name: antiflowerpottheft
+version: '${version}'
+
+main: com.moondust.antiflowerpottheft.Antiflowerpottheft
+api-version: '1.21'
