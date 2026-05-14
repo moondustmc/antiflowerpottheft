@@ -1,5 +1,17 @@
 name: antiflowerpottheft
 version: '${version}'
-
 main: com.moondust.antiflowerpottheft.Antiflowerpottheft
 api-version: '1.21'
+commands:
+  flowerpot:
+    description: Protects flower pots inside configured regions.
+    usage: /<command> <help|region|reload>
+    aliases:
+      - fp
+permissions:
+  antiflowerpottheft.admin:
+    description: Allows managing anti flower pot theft regions.
+    default: op
+  antiflowerpottheft.bypass:
+    description: Allows bypassing flower pot protection checks.
+    default: op
