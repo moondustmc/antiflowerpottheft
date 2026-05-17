@@ -1,0 +1,7 @@
+messages:
+  deny-break: "&cFlower pots are protected in this region."
+  deny-remove: "&cYou cannot remove plants from flower pots in this region."
+  deny-frame-rotate: "&cItem frames cannot be rotated in this region."
+  deny-hanging-destroy: "&cItem frames and paintings are protected in this region."
+
+regions: {}
